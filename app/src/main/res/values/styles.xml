@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">#388E3C</item>
+        <item name="android:textColorSecondary">#4CAF50</item>
+        <item name="android:divider">#4CAF50</item>
+        <item name="android:listDivider">@color/verde03</item>
+        <item name="android:dividerHeight">2px</item>
+    </style>
+    <style name="Linea1" parent="Widget.AppCompat.ListView.Menu">
+        <item name="android:textColorPrimary">#1976D2</item>
+        <item name="android:textColor">#1976D2</item>
+        <item name="android:textColorSecondary">#2196F3</item>
+        <item name="android:listDivider">@color/azul03</item>
+        <item name="android:dividerHeight">2px</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/medium</item>
+
+    </style>
+
+</resources>

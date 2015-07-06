@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fernandaochoa.oruga2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            ></activity>
+
+        <activity
+            android:name=".MapaRedActivity"
+            android:label="@string/title_activity_mapa_red"
+            >
+        </activity>
+        <activity
+            android:name=".RutasActivity"
+            android:label="@string/title_activity_rutas"
+           >
+        </activity>
+        <activity
+            android:name=".EstacionesT1_Activity"
+            android:label="@string/title_activity_estaciones_t1_"
+
+            >
+        </activity>
+        <activity
+            android:name=".EstacionesT2_Activity"
+            android:label="@string/title_activity_estaciones_t2_" >
+        </activity>
+        <activity
+            android:name=".EstacionesT3_Activity"
+            android:label="@string/title_activity_estaciones_t3_" >
+        </activity>
+        <activity
+            android:name=".EstacionesT4_Activity"
+            android:label="@string/title_activity_estaciones_t4_" >
+        </activity>
+        <activity
+            android:name=".EstacionesT5_Activity"
+            android:label="@string/title_activity_estaciones_t5_" >
+        </activity>
+        <activity
+            android:name=".ParaderosActivity"
+            android:label="@string/title_activity_paraderos_" >
+        </activity>
+        <activity
+            android:name=".FormasPagoActivity"
+            android:label="@string/title_activity_formas_pago_" >
+        </activity>
+    </application>
+
+</manifest>

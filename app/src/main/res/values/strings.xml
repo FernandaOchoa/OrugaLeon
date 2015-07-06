@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Optibus Leon</string>
+    <string name="title_activity_mapa_red">Mapa de Red</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rutas">Rutas</string>
+    <string name="title_activity_estaciones_t1_">Estaciones T1</string>
+    <string name="title_activity_estaciones_t2_">Estaciones T2</string>
+    <string name="title_activity_estaciones_t3_">Estaciones T3</string>
+    <string name="title_activity_estaciones_t4_">Estaciones T4</string>
+    <string name="title_activity_estaciones_t5_">Estaciones T5</string>
+    <string name="title_activity_paraderos_">Paraderos</string>
+    <string name="title_activity_formas_pago_">FormasPago</string>
+    <string name="title_activity_info_">Info_Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="mapa">Mapa de las Lineas</string>
+    <string name="paraderos">Lista de Paraderos</string>
+    <string name="texto1">PagoBús es el Sistema de cobro con tarjeta inteligente, sin contacto, que facilita la movilización de los usuarios del Transporte Urbano en la ciudad de León.\n</string>
+    <string name="texto4">Existen cuatro perfiles de usuarios, con derecho a solicitar la tarjeta Preferencial PagoBús:\n \n•Menores de 12 años\n
+\n•Estudiantes inscritos en instituciones del Sistema Oficial Escolarizado. \n\n
+•Adultos en plenitud (tercera edad) mayores de 60 años.\n\n
+•Personas con capacidades diferentes, bajo registro en el Sistema Integral de la Familia.\n</string>
+    <string name="texto5">Funciona igual que las tarjetas generales, sin embargo aplica una tarifa preferencial de MXN $3.70, y dicha tarjeta es personal e intransferible.\n</string>
+    <string name="esp1"> </string>
+    <string name="logoleon">Logotipo</string>
+    <string name="logo_leon_rutas">Logo leon</string>
+</resources>
