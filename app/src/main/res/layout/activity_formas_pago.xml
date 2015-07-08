@@ -30,34 +30,45 @@
                 android:id="@+id/tv_txt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="right"
                 android:text="@string/texto1"
                 android:textColor="@color/verde03"
-                android:textSize="@dimen/medium"
-                android:layout_gravity="right" />
+                android:textSize="@dimen/medium" />
 
             <TextView
                 android:id="@+id/tv_txt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:longClickable="false"
                 android:text="@string/texto4"
+                android:textAppearance="@color/azul03"
                 android:textColor="@color/verde03"
                 android:textSize="@dimen/medium"
                 android:textStyle="normal"
-                android:longClickable="false"
-                android:textAppearance="@color/azul03"
-                android:typeface="normal"
-                android:layout_gravity="right" />
+                android:typeface="normal" />
 
             <TextView
                 android:id="@+id/tv_txt5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="right"
                 android:text="@string/texto5"
                 android:textAlignment="gravity"
                 android:textColor="@color/verde03"
                 android:textSize="@dimen/medium"
-                android:textStyle="normal"
-                android:layout_gravity="right" />
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/texto6"
+                android:textAlignment="gravity"
+                android:textColor="@color/verde03"
+                android:textSize="@dimen/medium"
+                android:textStyle="normal" />
 
 
         </LinearLayout>

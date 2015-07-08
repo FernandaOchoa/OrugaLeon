@@ -18,6 +18,9 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.GoogleAnalytics;
+import com.google.android.gms.analytics.Tracker;
+
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
@@ -28,10 +31,21 @@ import static com.fernandaochoa.oruga2.R.id.mapa;
 
 public class MainActivity extends ActionBarActivity {
 
+    public static GoogleAnalytics analytics;
+    public static Tracker tracker;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Analitics para mi app
+        analytics = GoogleAnalytics.getInstance(this);
+        analytics.setLocalDispatchPeriod(1800);
+
+        tracker = analytics.newTracker("UA-55563205-2");
+        tracker.enableExceptionReporting(true);
+        tracker.enableAdvertisingIdCollection(true);
+        tracker.enableAutoActivityTracking(true);
 
         List menu = new ArrayList();
         menu.add("MAPA RED");
